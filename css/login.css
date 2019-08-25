@@ -1,0 +1,50 @@
+/* CSS Document */
+#body{
+	width: 1200px;
+	height: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url("../images/div/logreg.jpg");
+}
+#loginBox{
+	width: 400px;
+	height: 300px;
+	margin-left: 400px;
+	border-radius: 10px 10px 10px 10px ;
+	background-color: hsla(0,0%,10%,0.45);
+}
+#regBox{
+	width: 400px;
+	height: 340px;
+	margin-left: 400px;
+	border-radius: 10px 10px 10px 10px ;
+	background-color: hsla(0,0%,10%,0.45);
+}
+.loginTable{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	color: white;
+}
+.loginTable a{
+	font-size: 18px;
+	width: 100px;
+	line-height: 40px;
+}
+input{
+	width: 200px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 5px 5px 5px 5px;
+}
+#button{
+	width: 150px;
+	height: 40px;
+	border: none;
+	font-size: 18px;
+	font-weight: bolder;
+}
+#button:hover{
+	background-color: green;
+	color: white;
+}
