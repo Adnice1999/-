@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册账号</title>
+<link href="css/login.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body>
+	<div id="body">
+		<div style="height: 150px;">
+			<center><a style="color: white;font-size: 50px;line-height: 150px;">标鲨电子商务有限公司（注册）</a></center>
+		</div>
+		<div id="regBox">
+			<form action="doAction/regDo.php" method="post">
+				<center>
+				<div style="height: 80px;">
+						<img src="images/div/logo.jpg" alt="" height="100%">
+					</div>
+				<div class="loginTable">
+					<a>用户账号：</a>
+					<input type="text" placeholder="请设置您的账号" name="username">
+				</div>
+				<div class="loginTable">
+					<a>登陆密码：</a>
+					<input type="password" placeholder="请设置您的密码" name="password">
+				</div>
+					<div class="loginTable">
+					<a>您的姓名：</a>
+					<input type="text" placeholder="请输入您的姓名" name="user">
+				</div>
+				<div class="loginTable">
+					<input type="submit" id="button" value="立即注册">
+				</div>
+					<a style="color: white;">已有账号？</a><a style="color: red;" href="index.html">立即登陆</a>
+					</center>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
